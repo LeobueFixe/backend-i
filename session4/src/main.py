@@ -1,7 +1,6 @@
 from typer import Typer
 from services import meeting
 
-
 cli = Typer()
 
 @cli.command("create")

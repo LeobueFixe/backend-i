@@ -16,4 +16,7 @@ class Meeting:
             "\n# Meeting\n"
         )
 
-    
+@dataclass
+class MeetingLogs:
+    meeting: Meeting
+    path: str
