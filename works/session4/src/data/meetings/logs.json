@@ -1,0 +1,18 @@
+[
+  {
+    "meeting": {
+      "Title": "Aula",
+      "Owner": "Jorge",
+      "Date": "27/11/2026"
+    },
+    "Path": "src/data/meetings/2a567005-c61c-43b7-855e-638997a0c87d.md"
+  },
+  {
+    "meeting": {
+      "Title": "Aula",
+      "Owner": "Jorge",
+      "Date": "27/11/2026"
+    },
+    "Path": "src/data/meetings/4aee36b5-f0ea-4af4-b597-cb9acfdf4628.md"
+  }
+]
