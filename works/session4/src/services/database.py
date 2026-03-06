@@ -24,7 +24,6 @@ def create(meeting: Meeting):
 
     with open(DB, "r") as file:
         content = json.load(file)
-    breakpoint()
     content.append(logs_content)
 
     with open(DB, "w") as file:

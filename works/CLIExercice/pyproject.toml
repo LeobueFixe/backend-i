@@ -1,10 +1,18 @@
 [project]
 name = "cliexercice"
 version = "0.1.0"
-description = "Add your description here"
+description = "A simple command-line currency converter using live exchange rates."
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.10"
 dependencies = [
-    "requests>=2.32.5",
-    "typer>=0.24.1",
+    "pydantic>=2.0",
+    "requests>=2.31.0",
+    "typer>=0.9.0",
 ]
+
+[tools.uv.scripts]
+cli = "src.cli:app"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
