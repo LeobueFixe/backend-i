@@ -67,10 +67,14 @@ Run the CLI using:
 ```bash
 python main.py <command> [arguments]
 ```
+To see the available commands, simply use
+```bash
+python main.py --help
+```
 
 Convert an amount
 ```bash
-python main.py Convert 100 usd eur
+python main.py Convert {Value} {From} {To}
 ```
 
 List all supported currencies
@@ -80,7 +84,20 @@ python main.py List
 
 Get the exchange rate of a specific currency
 ```bash
-python main.py Rate eur
+python main.py Rate {Code}
+```
+
+Plots a historical exchange rate chart in the terminal
+```bash
+History {Compare} {Base} {Years}
+```
+
+Examples
+```bash
+python main.py Convert 100 eur usd
+python main.py List
+python main.py Rate EUR
+python main.py History Eur usd 10
 ```
 ## Commands Overview
 
@@ -89,3 +106,4 @@ python main.py Rate eur
 | `Convert <amount> <from> <to>` | Converts an amount between two currencies. |
 | `List` | Displays all supported currencies and their current values relative to USD. |
 | `Rate <code>` | Shows the exchange rate of a specific currency relative to USD. |
+| `History <code> <base> <years>` | Shows the exchange rate of a specific currency relative to USD. |
