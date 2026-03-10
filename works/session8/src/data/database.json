@@ -1,0 +1,22 @@
+{
+    "meetings": [
+        {
+            "title": "car",
+            "owner": "mercedes",
+            "date": "2026-03-10 20:54:30.396015",
+            "content": "TODO: summary from model"
+        },
+        {
+            "title": "car",
+            "owner": "audi",
+            "date": "2026-03-10 20:59:57.600450",
+            "content": "TODO: summary from model"
+        },
+        {
+            "title": "car",
+            "owner": "Bmw",
+            "date": "2026-03-10 21:00:18.150396",
+            "content": "TODO: summary from model"
+        }
+    ]
+}
