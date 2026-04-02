@@ -1,0 +1,18 @@
+[
+  {
+    "meeting": {
+      "Title": "Q2 Planning",
+      "Owner": "Jorge",
+      "Date": "2026-04-10"
+    },
+    "Path": "src/data/meetings/fc3f6d3c-38a8-4195-905d-629bea403914.md"
+  },
+  {
+    "meeting": {
+      "Title": "Bug",
+      "Owner": "Jorge",
+      "Date": "2026-12-21"
+    },
+    "Path": "src/data/meetings/097faff5-2a39-4bec-a050-9b6e6818449a.md"
+  }
+]
