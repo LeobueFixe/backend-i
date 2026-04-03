@@ -1,0 +1,95 @@
+{
+    "meetings": [
+        {
+            "id": "45724adb-9ea8-4fb3-8fa3-2b9d414a84b6",
+            "title": "NewMeeting",
+            "owner": "Alex",
+            "date": "2026-04-02",
+            "content": "TODO: summary from model",
+            "participants": [
+                "A"
+            ],
+            "action_items": [
+                {
+                    "id": "b96f3fee-41bf-43ac-a9e5-d1dd0e1bb139",
+                    "description": "bom dia",
+                    "owner": "Jorge",
+                    "due_date": "2027-02-21"
+                }
+            ]
+        },
+        {
+            "id": "b3970d25-8f40-44a5-90d6-c508811010ea",
+            "title": "Planning",
+            "owner": "Jorge",
+            "date": "2026-04-15T09:00:00",
+            "content": "TODO: summary from model",
+            "participants": [
+                "Alex",
+                "Sam"
+            ],
+            "action_items": [
+                {
+                    "id": "4eb1648d-1fbb-414b-84d8-3c57f20011c9",
+                    "description": "Define scope",
+                    "owner": "Jorge",
+                    "due_date": "2026-04-18"
+                },
+                {
+                    "id": "52e76f7c-0f8b-415f-b89c-e1139caa215c",
+                    "description": "Follow up",
+                    "owner": "Alex",
+                    "due_date": "2026-04-19"
+                }
+            ]
+        },
+        {
+            "id": "a2d1f5b9-2114-48c5-af41-908d4d17b914",
+            "title": "Retro",
+            "owner": "Jorge",
+            "date": "2026-05-10T10:00:00",
+            "content": "TODO: summary from model",
+            "participants": [
+                "Ann"
+            ],
+            "action_items": [
+                {
+                    "id": "771fb727-6dc1-4cd9-8c6a-0712e58f5026",
+                    "description": "Define scope",
+                    "owner": "Jorge",
+                    "due_date": "2026-04-18"
+                },
+                {
+                    "id": "6a344ba4-4fd4-4440-bbd5-e230ac026ef0",
+                    "description": "Follow up",
+                    "owner": "Alex",
+                    "due_date": "2026-04-19"
+                }
+            ]
+        },
+        {
+            "id": "0ea55073-9bae-4431-9aef-09eb5ab4eef9",
+            "title": "Design",
+            "owner": "Alex",
+            "date": "2026-04-20T14:00:00",
+            "content": "TODO: summary from model",
+            "participants": [
+                "Jorge"
+            ],
+            "action_items": [
+                {
+                    "id": "094a46c2-206c-4630-9231-97365e52e534",
+                    "description": "Define scope",
+                    "owner": "Jorge",
+                    "due_date": "2026-04-18"
+                },
+                {
+                    "id": "93af0828-c08f-4d7d-9d29-cdf8d3bc1b9a",
+                    "description": "Follow up",
+                    "owner": "Alex",
+                    "due_date": "2026-04-19"
+                }
+            ]
+        }
+    ]
+}
