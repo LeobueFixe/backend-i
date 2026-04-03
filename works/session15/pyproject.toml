@@ -1,0 +1,16 @@
+[project]
+name = "backend_i_session15"
+version = "0.1.0"
+description = "Django session 15 project for backend-i"
+requires-python = ">=3.9"
+dependencies = [
+    "django>=4.2,<5.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["meetings"]
+exclude = ["backend_i_django"]
