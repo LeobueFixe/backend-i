@@ -13,11 +13,10 @@ class MeetingAdmin(admin.ModelAdmin):
 class ActionItemAdmin(admin.ModelAdmin):
     list_display = ("id", "meeting", "owner", "due_date", "status")
     list_filter = ("status",)
-    search_fields = ("description", "owner")
+    actions = ["mark_completed"]
 
-    @admin.action(description="Mark selected action items as completed")
-    def mark_as_completed(self, request, queryset):
-        updated = queryset.update(status="completed")
-        self.message_user(request, f"{updated} action item(s) marked as completed.")
+    def mark_completed(self, request, queryset):
+        queryset.update(status="completed")
+    mark_completed.short_description = "Mark selected tasks as completed"
 
     actions = ["mark_as_completed"]
